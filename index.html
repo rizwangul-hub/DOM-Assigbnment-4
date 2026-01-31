@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4</title>
+    <script async src="script.js"></script>
+    <style>
+        .highlight{
+            color: rgb(67, 165, 42);
+            background-color: rgb(226, 43, 67);
+            padding: 10px;
+            font-size: 25px;
+
+        }
+        .active-btn{
+            font-size: 25px;
+            padding: 10px 15px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .dark-mode{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <p id="para-1" >Salman Ali Agha is the best player in the world</p>
+    <button onclick="changeTextColor()">Add Highlight</button>
+    <button onclick="RemoveTextColor()">Remove Highlight</button>
+    <button onclick="ToggleColor()">Toggle Highlight</button>
+    <button onclick="CheckClass()">Class Exists</button>
+
+    <hr>
+<button onclick="active()" id="btn">Active</button>
+    <hr>
+    <button onclick="DarkMode()" id="btnText">Dark Mode</button>
+</body>
+</html>
